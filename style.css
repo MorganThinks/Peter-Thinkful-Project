@@ -1,0 +1,78 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color:rgb(231, 216, 147);
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Set the font family for any h1, h2, or h3 heading */
+h1 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 60px;
+  color: rgb(8, 68, 38);
+  text-align:center;
+}
+h2 {
+  font-family: "Playfair Display", 'Times new roman', serif;
+  text-align:center;
+  font-size: 40px;
+}
+h3 {
+  font-family: "Playfair Display", 'Times new roman', serif;
+  text-align:center;
+  margin:auto;
+  font-size:40px;
+}
+
+a {
+  color: red;
+  padding: 10px;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 18px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+/* Add your solution below */
+
+.image-circle {
+  /* Make images circular, centered, and crop to a square for consistent shape */
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #003049;
+  overflow: hidden;
+  object-fit: cover;
+}
